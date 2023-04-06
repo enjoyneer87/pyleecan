@@ -11,6 +11,12 @@ run_GUI_internal.py
 /Tests/logtest.txt
 **/.vscode
 **/.ipynb*
+**.bak
+**.dbg
+**.html
+**.xml
+**.jlog
+
 /.spyproject/config/backups/codestyle.ini.bak
 /.spyproject/config/backups/encoding.ini.bak
 /.spyproject/config/backups/vcs.ini.bak
@@ -26,3 +32,6 @@ run_GUI_internal.py
 /build
 /dist
 node_modules
+
+*git_pyleecan/*
+Tutorials/skku/test_multipurpose.csv
