@@ -99,4 +99,4 @@ def testDPWM():
 
 if __name__ == "__main__":
     # testDPWM()
-    testSPWM()
+    testDPWM()

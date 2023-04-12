@@ -6,6 +6,7 @@ import numpy as np
 from numpy.testing import assert_array_less, assert_almost_equal
 
 from SciDataTool.Functions.Plot.plot_2D import plot_2D
+import matplotlib.pyplot as plt
 
 from pyleecan.Classes.ImportGenPWM import ImportGenPWM
 from pyleecan.Classes.Simu1 import Simu1
@@ -19,7 +20,7 @@ from pyleecan.Functions.load import load
 from pyleecan.definitions import DATA_DIR
 
 
-is_show_fig = False
+is_show_fig = True
 
 param_list = [
     {"strategy": "Sine", "type_PWM": 8, "val1": 0.34, "val2": 0.371},
@@ -115,7 +116,7 @@ def test_EEC_PWM(param_dict):
             + ")",
             xlabel="Modulation index []",
             ylabel="Amplitude [p.u]",
-            legend_list=legend_list,
+            legend_list=legend_list,save_path='z:/test_EEC_PWM1.png'
         )
 
         plot_2D(
@@ -126,8 +127,9 @@ def test_EEC_PWM(param_dict):
             + ")",
             xlabel="Modulation index []",
             ylabel="Amplitude [A]",
-            legend_list=legend_list,
+            legend_list=legend_list,save_path='z:/test_EEC_PWM.png'
         )
+
 
     pass
 

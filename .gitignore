@@ -33,5 +33,5 @@ run_GUI_internal.py
 /dist
 node_modules
 
-*git_pyleecan/*
+
 Tutorials/skku/test_multipurpose.csv
