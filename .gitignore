@@ -9,7 +9,6 @@ _Internal/
 *.log
 run_GUI_internal.py
 /Tests/logtest.txt
-**/.vscode
 **/.ipynb*
 **.bak
 **.dbg
@@ -32,6 +31,4 @@ run_GUI_internal.py
 /build
 /dist
 node_modules
-
-*git_pyleecan/*
-Tutorials/skku/test_multipurpose.csv
+/.venv
